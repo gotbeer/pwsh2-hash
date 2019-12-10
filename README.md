@@ -1,7 +1,7 @@
 # pwsh2-hash
 Copypaste implementation of Get-Filehash in Powershell 2.0 and example of usage. "Horrible piece of shit" version.
 
-Get the folder or file and save MD5hash to file.
+Get the folder or file and save MD5hash to another file.
 ```
 .\hashToFile.ps1 -folderPath scriptkiddie.exe -resultFile MD5.txt
 ```
