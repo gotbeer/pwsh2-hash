@@ -15,7 +15,7 @@ PS C:\Users\builder> cat .\MD5.txt
 0ee556e32fd00fe55200c00b2e83ad2b  	 \kek.txt
 ```
 
-Wildcard supported in the filename. It works recursive to the current folder.
+Wildcard is supported in the filename. It works recursive to the current folder.
 ```
 PS C:\Users\builder> .\hashToFile.ps1 kek* MD5.txt
 
@@ -44,5 +44,5 @@ fafa894136a7e4c55db2891ceeb6d011  	 \tset\31232131231
 2518faacc0d02b98919a0263e684c810  	 \tset\rrw
 ```
 
-Wildcard not supported in the folders name.
+Wildcard is not supported in the folders name.
 
